@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Vacancy</title>
+    <link
+      rel="shortcut icon"
+      href="./images/job-offer.svg"
+      type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header"></header>
+    <!--
+      
+    -->
+    <div class="container">
+      <!-- 
+      
+      -->
+      <main>
+        <section class="form-section">
+          <h2>Vakansiya ma'lumotlarini kiriting</h2>
+          <form class="form" id="myform">
+            <label for="card_img-url">Logotip URL</label>
+            <input type="url" id="card_img-url" class="input-style""
+            placeholder="Logotip URL manzilini kiriting" />
+            <label for="card_company-name">Kompaniya nomi</label>
+            <input
+              type="text"
+              id="card_company-name"
+              class="input-style"
+              placeholder="Manage" />
+            <div class="manage-wrapper">
+              <div>
+                <input type="checkbox" id="new-check" />
+                <label for="new-check">Yangi</label>
+              </div>
+              <div>
+                <input type="checkbox" id="feat-check" />
+                <label for="feat-check">Featured</label>
+              </div>
+            </div>
+            <label for="position">Lavozim</label>
+            <input
+              type="text"
+              id="position"
+              class="input-style"
+              placeholder="Fullstack Developer" />
+            <!-- 
+            
+         
+             -->
+            <div class="select-wrapper">
+              <div class="select-option-wrapper">
+                <label for="time-select">Vaqt</label>
+                <select name="time" id="time-select">
+                  <option value="">Tanlang</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                </select>
+              </div>
+
+              <div class="select-option-wrapper">
+                <label for="work-type-select">Ish turi</label>
+                <select name="work-type" id="work-type-select">
+                  <option value="">Tanlang</option>
+                  <option value="Fulltime">Fulltime</option>
+                  <option value="Parttime">Parttime</option>
+                  <option value="Contract">Contract</option>
+                </select>
+              </div>
+
+              <div class="select-option-wrapper">
+                <label for="location-select">Joylashuv</label>
+                <select name="lOcation" id="location-select">
+                  <option value="">Tanlang</option>
+                  <option value="USA only">USA only</option>
+                  <option value="UK only">UK only</option>
+                  <option value="Remote">Remote</option>
+                  <option value="Worldwide">Worldwide</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- 
+            
+            
+            -->
+            <div class="skills">
+              <div>
+                <input class="skillsCheck" type="checkbox" id="fullstack" />
+                <label for="fullstack">Fullstack</label>
+              </div>
+              <div>
+                <input class="skillsCheck" type="checkbox" id="python" />
+                <label for="python">Python</label>
+              </div>
+              <div>
+                <input class="skillsCheck" type="checkbox" id="midweight" />
+                <label for="midweight">Midweight</label>
+              </div>
+              <div>
+                <input class="skillsCheck" type="checkbox" id="react" />
+                <label for="react">React</label>
+              </div>
+              <div>
+                <input class="skillsCheck" type="checkbox" id="frontend" />
+                <label for="frontend">Frontend</label>
+              </div>
+              <div>
+                <input class="skillsCheck" type="checkbox" id="junior" />
+                <label for="junior">Junior</label>
+              </div>
+            </div>
+
+            <button class="save-btn">Saqlash</button>
+          </form>
+          <!-- 
+          
+          
+          -->
+        </section>
+
+        <!-- 
+        
+        
+        -->
+
+        <div class="card-wrapper"></div>
+      </main>
+
+      <!-- 
+        
+      
+      
+      
+      -->
+    </div>
+
+    <!-- <script src="./js/index.js"></script>
+      -->
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

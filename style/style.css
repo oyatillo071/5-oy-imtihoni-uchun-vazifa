@@ -1,0 +1,264 @@
+@import "./font.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  background-color: #effafa;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding-inline: 15px;
+  margin: 10px auto;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border: none;
+}
+
+select {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.header {
+  background-image: url(../images/header-img.png);
+  background-repeat: no-repeat;
+  height: 156px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.save-btn {
+  border-radius: 12px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  max-width: 90%;
+  width: 100%;
+  margin-top: 40px;
+  margin-inline: auto;
+}
+
+.manage-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.manage-wrapper div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-section {
+  max-width: 500px;
+  margin-inline: auto;
+  border-radius: 8px;
+  padding: 30px 20px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.skills div {
+  max-width: 40%;
+  width: 100%;
+}
+
+.input-style {
+  max-width: 90%;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.select-wrapper {
+  max-width: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.select-option-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  width: 100%;
+  gap: 20px;
+}
+.select-option-wrapper select {
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 10px 20px;
+}
+
+::-moz-placeholder {
+  font-size: 18px;
+}
+
+::placeholder {
+  font-size: 18px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.1490196078);
+  border: none;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.card-img {
+  border-radius: 50%;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-job-about {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.card-job-about li {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.1384615451px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: rgb(124, 143, 143);
+}
+
+.company-name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.company-name-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16.56px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #5ca5a5;
+}
+
+.company-name-new,
+.company-name-feat {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.1076923087px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fff;
+  background-color: #5ca5a5;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.company-name-feat {
+  color: #fff;
+  background-color: #2b3939;
+  padding: 6px 7px;
+}
+
+.card-job {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #2b3939;
+  margin-block: 10px 7px;
+}
+
+.card-job-about-time {
+  list-style: none;
+}
+
+.card-skills ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card-skills ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.1230769232px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #5ca5a5;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: rgba(92, 165, 165, 0.1);
+}
+
+label {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  position: absolute;
+  z-index: 10;
+  right: 30px;
+  top: 10px;
+  font-size: 28px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
